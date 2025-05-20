@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex0ticRoyalms - Unique Board Games</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components/navbar.css">
+    <link rel="stylesheet" href="assets/css/components/footer.css">
+    <link rel="stylesheet" href="assets/css/pages/home.css">
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KJNFBG3KE5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-KJNFBG3KE5');
+    </script>
+</head>
+<body>
+    <div id="navbar-placeholder"></div>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1>Welcome to Ex0ticRoyalms</h1>
+            <p>Discover unique board games and reimagined classics</p>
+        </section>
+        
+        <!-- Add more sections as needed -->
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="assets/js/utils/component-loader.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            loadComponent('navbar-placeholder', '/components/navbar.html');
+            loadComponent('footer-placeholder', '/components/footer.html');
+        });
+    </script>
+    <script src="assets/js/components/navbar.js"></script>
+    <script src="assets/js/components/footer.js"></script>
+    <script src="assets/js/pages/home.js"></script>
+</body>
+</html>
